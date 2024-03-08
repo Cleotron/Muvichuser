@@ -1,0 +1,10 @@
+<header>
+    <h1>Muvichuser</h1>
+</header>
+
+{% for movie in movies %}
+    <movie>
+        <p>{{ movie.title}} <span> - {{ movie.priority}}</span> </p>
+    </movie>
+{% endfor %}
+
